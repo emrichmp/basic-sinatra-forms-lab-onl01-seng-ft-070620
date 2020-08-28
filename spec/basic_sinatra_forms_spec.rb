@@ -20,7 +20,7 @@ describe App do
   end
 
   describe 'POST /team' do
-    it 'does return Sinatra error page' do
+    it 'does not return Sinatra error page' do
       visit '/newteam'
 
       click_button "Submit"
